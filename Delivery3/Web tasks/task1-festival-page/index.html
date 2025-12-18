@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SunWave Festival 2026 | Euphoric Events</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>🌊 SunWave Festival</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#lineup">Lineup</a></li>
+                <li><a href="#tickets">Tickets</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title animate-fade-in">SunWave Festival 2026</h1>
+            <p class="hero-subtitle animate-fade-in-delay">Where Music Meets The Ocean</p>
+            <p class="hero-date animate-fade-in-delay-2">July 15-17, 2026 | Miami Beach, Florida</p>
+            <button class="cta-button animate-fade-in-delay-3" onclick="scrollToSection('tickets')">Get Your Tickets</button>
+        </div>
+        <div class="scroll-indicator">
+            <span>↓</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About The Festival</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="intro-text">
+                        Experience the ultimate summer celebration where world-class music, art, 
+                        and beach vibes converge for an unforgettable three-day journey.
+                    </p>
+                    <p>
+                        SunWave Festival brings together over 100 international artists across 
+                        5 stages, featuring everything from electronic dance music to indie rock, 
+                        hip-hop, and live acoustic performances. Set against the stunning backdrop 
+                        of Miami Beach, our festival offers more than just music.
+                    </p>
+                    <div class="features-grid">
+                        <div class="feature">
+                            <div class="feature-icon">🎵</div>
+                            <h3>100+ Artists</h3>
+                            <p>International headliners and emerging talents</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">🎨</div>
+                            <h3>Art Installations</h3>
+                            <p>Interactive exhibits and live art performances</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">🍔</div>
+                            <h3>Gourmet Food</h3>
+                            <p>50+ food trucks and culinary experiences</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lineup Section -->
+    <section id="lineup" class="lineup">
+        <div class="container">
+            <h2 class="section-title">Artist Lineup</h2>
+            <div class="day-selector">
+                <button class="day-btn active" onclick="showDay('friday')">Friday</button>
+                <button class="day-btn" onclick="showDay('saturday')">Saturday</button>
+                <button class="day-btn" onclick="showDay('sunday')">Sunday</button>
+            </div>
+            
+            <div id="friday" class="lineup-day active">
+                <div class="artists-grid">
+                    <div class="artist-card headliner">
+                        <div class="artist-name">The Midnight Waves</div>
+                        <div class="artist-genre">Electronic / House</div>
+                        <div class="artist-time">23:00 - 01:00 | Main Stage</div>
+                    </div>
+                    <div class="artist-card">
+                        <div class="artist-name">Luna & The Echoes</div>
+                        <div class="artist-genre">Indie Rock</div>
+                        <div class="artist-time">20:30 - 21:45 | Ocean Stage</div>
+                    </div>
+                    <div class="artist-card">
+                        <div class="artist-name">DJ Solstice</div>
+                        <div class="artist-genre">Techno / Progressive</div>
+                        <div class="artist-time">21:00 - 22:30 | Sunset Stage</div>
+                    </div>
+                    <div class="artist-card">
+                        <div class="artist-name">The Coral Collective</div>
+                        <div class="artist-genre">Alternative / Indie</div>
+                        <div class="artist-time">18:00 - 19:15 | Beach Stage</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="saturday" class="lineup-day">
+                <div class="artists-grid">
+                    <div class="artist-card headliner">
+                        <div class="artist-name">Electric Paradise</div>
+                        <div class="artist-genre">EDM / Festival</div>
+                        <div class="artist-time">23:30 - 01:30 | Main Stage</div>
+                    </div>
+                    <div class="artist-card">
+                        <div class="artist-name">Horizon Beats</div>
+                        <div class="artist-genre">Hip-Hop / R&B</div>
+                        <div class="artist-time">21:00 - 22:15 | Main Stage</div>
+                    </div>
+                    <div class="artist-card">
+                        <div class="artist-name">Aqua Symphony</div>
+                        <div class="artist-genre">Ambient / Chill</div>
+                        <div class="artist-time">19:00 - 20:30 | Ocean Stage</div>
+                    </div>
+                    <div class="artist-card">
+                        <div class="artist-name">The Wave Riders</div>
+                        <div class="artist-genre">Surf Rock</div>
+                        <div class="artist-time">17:00 - 18:15 | Beach Stage</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="sunday" class="lineup-day">
+                <div class="artists-grid">
+                    <div class="artist-card headliner">
+                        <div class="artist-name">Sunset Revival</div>
+                        <div class="artist-genre">Pop / Electronic</div>
+                        <div class="artist-time">22:00 - 00:00 | Main Stage</div>
+                    </div>
+                    <div class="artist-card">
+                        <div class="artist-name">Acoustic Sunrise</div>
+                        <div class="artist-genre">Folk / Acoustic</div>
+                        <div class="artist-time">16:00 - 17:30 | Beach Stage</div>
+                    </div>
+                    <div class="artist-card">
+                        <div class="artist-name">Neon Dolphins</div>
+                        <div class="artist-genre">Synthwave / Retro</div>
+                        <div class="artist-time">20:00 - 21:30 | Sunset Stage</div>
+                    </div>
+                    <div class="artist-card">
+                        <div class="artist-name">Ocean Groove</div>
+                        <div class="artist-genre">Jazz Fusion</div>
+                        <div class="artist-time">18:00 - 19:15 | Ocean Stage</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tickets Section -->
+    <section id="tickets" class="tickets">
+        <div class="container">
+            <h2 class="section-title">Tickets</h2>
+            <div class="tickets-grid">
+                <div class="ticket-card">
+                    <h3 class="ticket-type">General Admission</h3>
+                    <div class="ticket-price">$199</div>
+                    <ul class="ticket-features">
+                        <li>✓ Access to all stages</li>
+                        <li>✓ 3-day festival pass</li>
+                        <li>✓ Food court access</li>
+                        <li>✓ Beach activities</li>
+                    </ul>
+                    <button class="ticket-button">Buy Now</button>
+                </div>
+                <div class="ticket-card featured">
+                    <div class="popular-badge">Most Popular</div>
+                    <h3 class="ticket-type">VIP Experience</h3>
+                    <div class="ticket-price">$499</div>
+                    <ul class="ticket-features">
+                        <li>✓ All General Admission benefits</li>
+                        <li>✓ VIP viewing areas</li>
+                        <li>✓ Exclusive artist meet & greets</li>
+                        <li>✓ Premium food & drinks</li>
+                        <li>✓ Air-conditioned lounges</li>
+                        <li>✓ Express entry</li>
+                    </ul>
+                    <button class="ticket-button">Buy Now</button>
+                </div>
+                <div class="ticket-card">
+                    <h3 class="ticket-type">Ultimate VIP</h3>
+                    <div class="ticket-price">$999</div>
+                    <ul class="ticket-features">
+                        <li>✓ All VIP benefits</li>
+                        <li>✓ Backstage access</li>
+                        <li>✓ Private beach cabana</li>
+                        <li>✓ Concierge service</li>
+                        <li>✓ Premium parking</li>
+                        <li>✓ Exclusive merch package</li>
+                    </ul>
+                    <button class="ticket-button">Buy Now</button>
+                </div>
+            </div>
+            <p class="ticket-note">* Prices increase as we get closer to the event. Book early to save!</p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Festival Gallery</h2>
+            <p class="gallery-subtitle">Memories from SunWave 2025</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=800&q=80" alt="Main Stage Sunset">
+                    <div class="gallery-overlay">
+                        <p>Main Stage Sunset</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=800&q=80" alt="Beach Vibes">
+                    <div class="gallery-overlay">
+                        <p>Beach Vibes</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800&q=80" alt="Ocean Stage">
+                    <div class="gallery-overlay">
+                        <p>Ocean Stage</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&q=80" alt="Art Installations">
+                    <div class="gallery-overlay">
+                        <p>Art Installations</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&q=80" alt="Crowd Energy">
+                    <div class="gallery-overlay">
+                        <p>Crowd Energy</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?w=800&q=80" alt="Night Performances">
+                    <div class="gallery-overlay">
+                        <p>Night Performances</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-section">
+                <h3>Official 2025 Aftermovie</h3>
+                <div class="video-container">
+                <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;"><iframe src="https://geo.dailymotion.com/player.html?video=x2p2uzo"style="width:100%; height:100%; position:absolute; left:0px; top:0px; overflow:hidden; border:none;"allowfullscreentitle="Dailymotion Video Player"allow="web-share"></iframe></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>SunWave Festival</h3>
+                    <p>Presented by Euphoric Events</p>
+                    <p>Creating unforgettable experiences since 2020</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#lineup">Lineup</a></li>
+                        <li><a href="#tickets">Tickets</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: info@sunwavefestival.com</p>
+                    <p>Phone: +1 (305) 555-WAVE</p>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Stay updated with the latest news</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Your email" id="newsletter-email">
+                        <button onclick="subscribeNewsletter()">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Countdown Timer (floating) -->
+    <div class="countdown-widget" id="countdown">
+        <div class="countdown-content">
+            <p>Festival Starts In:</p>
+            <div class="countdown-timer">
+                <div class="time-unit">
+                    <span id="days">000</span>
+                    <label>Days</label>
+                </div>
+                <div class="time-unit">
+                    <span id="hours">00</span>
+                    <label>Hours</label>
+                </div>
+                <div class="time-unit">
+                    <span id="minutes">00</span>
+                    <label>Min</label>
+                </div>
+                <div class="time-unit">
+                    <span id="seconds">00</span>
+                    <label>Sec</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
