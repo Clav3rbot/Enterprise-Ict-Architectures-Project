@@ -1,5 +1,10 @@
 # 🏛️ Enterprise ICT Architectures Project
 
+
+<p align="center">
+  <img width="100%" src="https://i.imgur.com/tm9mSuM.png" alt="header" />
+</p>
+
 > **Academic Project** | Politecnico di Milano  
 > Master's Degree in Cybersecurity and Risk (Bocconi-PoliMi Joint Program)
 
