@@ -59,3 +59,4 @@ Each delivery is organized in its own folder containing all necessary files incl
 ## 🎓 Academic Context
 
 Developed for the Enterprise ICT Architectures course, this project showcases the practical application of enterprise-level database design, implementation, and integration with modern web technologies.
+# Enterprise-Ict-Architectures-Project
