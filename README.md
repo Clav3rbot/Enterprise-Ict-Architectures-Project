@@ -34,7 +34,6 @@ This repository showcases a comprehensive exploration of enterprise-grade databa
 - 🕸️ **Neo4j Graph Database** — Implementation of interconnected data structures
   - Cypher queries for pattern matching and graph traversal
   - Relationship analysis and shortest path algorithms
-  - Database backup/restore functionality
 
 **Tech Stack:** Neo4j, Cypher Query Language, BPMN 2.0
 
@@ -49,7 +48,6 @@ This repository showcases a comprehensive exploration of enterprise-grade databa
 - Document-oriented data model for flexible schema design
 - Collections: `festivals`, `persons`, `stages`, `stands`, `tickets`, `relationships`
 - Advanced aggregation pipelines and CRUD operations
-- Database dumps for data persistence
 
 #### 💻 **Web Application**
 
