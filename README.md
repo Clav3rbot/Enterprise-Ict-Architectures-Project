@@ -1,6 +1,6 @@
 # Enterprise ICT Architectures Project
 
-University project for the Enterprise ICT Architectures course at Bocconi University.
+University project for the Enterprise ICT Architectures course at Politecnico di Milano - Master's Degree in Cybersecurity and Risk (Bocconi-Politecnico).
 
 ## 📋 Overview
 
@@ -58,5 +58,4 @@ Each delivery is organized in its own folder containing all necessary files incl
 
 ## 🎓 Academic Context
 
-Developed for the Enterprise ICT Architectures course, this project showcases the practical application of enterprise-level database design, implementation, and integration with modern web technologies.
-# Enterprise-Ict-Architectures-Project
+Developed for the Enterprise ICT Architectures course at Politecnico di Milano, as part of the Master's Degree in Cybersecurity and Risk (joint program between Bocconi University and Politecnico di Milano). This project showcases the practical application of enterprise-level database design, implementation, and integration with modern web technologies.
